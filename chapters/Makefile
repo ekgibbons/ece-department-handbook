@@ -1,0 +1,3 @@
+all: *.tex
+	cd .. ; make
+	

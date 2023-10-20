@@ -1,0 +1,162 @@
+\ProvidesPackage{sleek}[2020/10/29 v1.01 Sleek Package]
+
+%%%%%%%%%%%%%%%%
+% Requirements %
+%%%%%%%%%%%%%%%%
+
+% Encoding
+
+\RequirePackage[utf8]{inputenc}
+\RequirePackage[T1]{fontenc}
+\RequirePackage{eurosym}
+
+% Style
+
+\RequirePackage{geometry}
+\RequirePackage{fancyhdr}
+\RequirePackage[bottom]{footmisc}
+
+\edef\restoreparindent{\parindent=\the\parindent\relax}
+\RequirePackage[parfill]{parskip}
+
+\RequirePackage{enumitem}
+\RequirePackage{xcolor}
+
+\RequirePackage{quoting}
+\RequirePackage{xparse}
+% \RequirePackage{mdframed}
+
+\NewDocumentCommand{\bywhom}{m}{% the Bourbaki trick
+  {\nobreak\hfill\penalty50\hskip1em\null\nobreak
+    \vskip1mm
+   \hfill\mbox{\itshape---#1}%
+   \parfillskip=0pt \finalhyphendemerits=0 \par}%
+}
+
+\NewDocumentEnvironment{pquotation}{m}
+  {\vspace{1em}\begin{mdframed}[linewidth=1.5,linecolor=black, topline=false,rightline=false,bottomline=false]
+      \begin{quoting}[
+%        indentfirst=true,
+        leftmargin=\parindent,
+        rightmargin=\parindent]} 
+    {\bywhom{#1}\end{quoting}
+  \end{mdframed}\vspace{1em}
+  }
+% Links
+
+\RequirePackage{hyperref}
+%     pdfusetitle,
+%     colorlinks=true,
+%     linktoc=page,
+%     allcolors=blue
+% ]{hyperref}
+
+% Mathematics
+
+\RequirePackage{amsfonts}
+\RequirePackage{amsmath}
+\RequirePackage{amssymb}
+\RequirePackage{amsthm}
+\RequirePackage{bm}
+\RequirePackage{esint}
+\RequirePackage{physics}
+\RequirePackage{xfrac}
+
+
+
+% Units
+
+\RequirePackage{units}
+
+% Figures
+
+\RequirePackage{float}
+\RequirePackage[skip=1em]{caption}
+\RequirePackage{subcaption}
+
+% Arrays
+
+\RequirePackage{array}
+\RequirePackage{booktabs}
+\RequirePackage{multirow}
+\RequirePackage{multicol}
+
+% Bibliography
+
+\RequirePackage[
+    backend=bibtex,
+    % style=numeric-comp,
+    % sorting=none,
+    % maxbibnames=99,
+    % backref=true
+]{biblatex}
+
+%%%%%%%%%%%%
+% Settings %
+%%%%%%%%%%%%
+
+% Parindent
+
+\DeclareOption{parindent}{
+    \restoreparindent
+}
+
+% Style
+
+\geometry{top=2cm,bottom=1.5cm,right=2cm,left=2cm}
+
+\pagestyle{fancy}
+\fancyhead[L]{}
+\fancyhead[R]{\leftmark}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+
+\DeclareOption{noheader}{
+    \fancyhead[R]{}
+    \newgeometry{margin=2.5cm}
+}
+
+% Arrays
+
+\renewcommand{\arraystretch}{1.1}
+
+
+%%%%%%%%%%%%
+% Commands %
+%%%%%%%%%%%%
+
+% Table of contents
+
+% \newcommand{\romantableofcontents}{ % creates a table of contents with roman (i, ii, iii, ...) numbering of the pages
+%     \newpage
+%     \pagenumbering{roman}
+%     \tableofcontents
+%     \newpage
+%     \pagenumbering{arabic}
+% }
+
+% Mathematics
+
+% \newcommand{\rbk}[1]{\left(#1\right)} % round brackets (parentheses)
+% \newcommand{\cbk}[1]{\left\{#1\right\}} % curly brackets {braces}
+% \newcommand{\sbk}[1]{\left[#1\right]} % square brackets [brackets]
+% % \newcommand{\abs}[1]{\left|#1\right|} % absolute value |x|
+% \newcommand{\norm}[1]{\left\|#1\right\|} % norm ||x||
+
+% \newcommand{\fact}[1]{#1!} % factorial x!
+% \newcommand{\diff}{\mathrm{d}} % upright 'd' for differential
+% \DeclareMathOperator{\tr}{tr} % trace
+
+% Figures
+
+\newcommand{\noskipcaption}[1]{\caption{#1}\vspace{-1em}} % caption without additional vertical space
+
+% Footnotes
+
+\makeatletter
+\def\blindfootnote{\gdef\@thefnmark{}\@footnotetext} % footnote without number
+\makeatother
+
+\ProcessOptions\relax
+
+\endinput

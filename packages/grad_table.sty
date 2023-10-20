@@ -1,0 +1,84 @@
+\usepackage{xcolor,colortbl}
+\usepackage[parfill]{parskip} % no indent on paragraphs
+\usepackage[compact]{titlesec} % save room between sections
+\usepackage{longtable}
+\usepackage{tikz}
+
+\setlength{\parindent}{0pt}
+
+\definecolor{Gray}{gray}{0.85}
+\definecolor{LightPurple}{RGB}{163,145,177}
+\definecolor{Purple}{RGB}{73,35,101}
+
+
+\newcolumntype{a}{>{\columncolor{Gray}}c}
+\newcolumntype{b}{>{\columncolor{white}}c}
+
+\newcommand{\semester}[1]{
+  \multicolumn{4}{l}{\cellcolor{LightPurple}#1}\\
+}
+
+\newcommand{\credits}[1]{
+  \hline
+  \textbf{Total Semester Credits:} & #1 & &\\
+}
+
+\newcommand{\totalcredits}[1]{
+  \hline \hline
+  \textbf{Total Bachelor Credits:} & #1 & &\\
+  \hline
+}
+
+\newcommand{\course}[5]
+{
+  \begin{minipage}{0.37\linewidth}
+    \vspace{1mm}
+    #1
+    \vspace{1mm}
+  \end{minipage}
+  &
+  \begin{minipage}{0.02\linewidth}
+    \vspace{1mm}
+    #2
+    \vspace{1mm}
+  \end{minipage}
+  &
+  \begin{minipage}{0.3\linewidth}
+    \vspace{1mm}
+    #3\,\,#4
+    \vspace{1mm}
+  \end{minipage}
+  &
+  \begin{minipage}{0.2\linewidth}
+    \vspace{1mm}
+    #5
+    \vspace{1mm}
+  \end{minipage}  
+  \\
+  \hline
+
+}  
+
+\newcommand{\elective}[4]
+{
+  \begin{minipage}{0.47\linewidth}
+    \vspace{1mm}
+    #1
+    \vspace{1mm}
+  \end{minipage}
+  &
+  \begin{minipage}{0.02\linewidth}
+    \vspace{1mm}
+    #2
+    \vspace{1mm}
+  \end{minipage}
+  &
+  \begin{minipage}{0.4\linewidth}
+    \vspace{1mm}
+    #3\,\,#4
+    \vspace{1mm}
+  \end{minipage}
+  \\
+  \hline
+
+}  

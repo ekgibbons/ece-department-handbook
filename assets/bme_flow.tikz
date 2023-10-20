@@ -1,0 +1,231 @@
+\matrix[row sep=13mm, column sep=16mm]
+{
+\node[block2] () {Semester 1}; &
+&
+\node[block2] () {Semester 2}; &
+&
+\node[block2] () {Semester 3}; &
+&
+\node[block2] () {Semester 4}; &
+&
+\node[block2] () {Semester 5}; &
+&
+\node[block2] () {Semester 6}; &
+&
+\node[block2] () {Semester 7}; &
+&
+\node[block2] () {Semester 8}; &
+\\
+\node[block4] (s1_1) {Math 1210\\Calculus I}; &
+&
+\node[block4] (s2_1) {Math 1220\\Calculus II}; &
+&
+\node[block4] (s3_1) {CHEM 1210\\Chemistry I}; &
+&
+\node[block4] (s4_1) {ENGR 2240\\Dyn. Sys. Eng.}; &
+&
+\node[block1] (s5_1) {ECE 3610\\Digital Sys.}; &
+&
+\node[block1] (s6_1) {CHEM 2310\\Org. Chem. I}; &
+&
+\node[block1] (s7_1) {BME 4010\\Sr. Proj. I}; &
+&
+\node[block1] (s8_1) {BME 4020\\Sr. Proj. II}; &
+\\
+&
+\node[coordinate] (c1_1) {}; &
+&
+\node[coordinate] (c2_1) {}; &
+&
+\node[coordinate] (c3_1) {}; &
+&
+\node[coordinate] (c4_1) {}; &
+&
+\node[coordinate] (c5_1) {}; &
+&
+\node[coordinate] (c6_1) {}; &
+&
+\node[coordinate] (c7_1) {}; &
+&
+
+\\
+\node[block4] (s1_2) {PHYS 2210\\Phys. for SE I}; &
+&
+\node[block4] (s2_2) {PHYS 2220\\Phys. for SE II}; &
+&
+\node[block4] (s3_2) {ECE 1270\\Intro. to Elec. Circuits}; &
+&
+\node[block4] (s4_2) {CHEM 1220\\Chemistry II}; &
+&
+\node[block1] (s5_2) {BME 3000\\Eng. Seminar}; &
+&
+\node[block1] (s6_2) {ECE 3430\\Eng. Prob. and Stats.}; &
+&
+\node[block1] (s7_2) {BME 5XXX\\Sr. Elec. I}; &
+&
+\node[block1] (s8_2) {BME 5XXX\\Sr. Elec. III}; &
+\\
+&
+\node[coordinate] (c1_2) {}; &
+&
+\node[coordinate] (c2_2) {}; &
+&
+\node[coordinate] (c3_2) {}; &
+&
+\node[coordinate] (c4_2) {}; &
+&
+\node[coordinate] (c5_2) {}; &
+&
+\node[coordinate] (c6_2) {}; &
+&
+\node[coordinate] (c7_2) {}; &
+&
+
+\\
+\node[block4] (s1_3) {ECE 1000\\Intro. to EE}; &
+&
+\node[block4] (s2_3) {MICR 2054\\Prin. of Microbio.}; &
+&
+\node[block4] (s3_3) {ECE 2700\\Digital Circuits}; &
+&
+\node[block4] (s4_3) {ECE 2260\\Fund. of Elec. Circ.}; &
+&
+\node[block1] (s5_3) {BME 3130\\Microelec. for BME}; &
+&
+\node[block1] (s6_3) {ECE 3890\\Internship}; &
+&
+\node[block1] (s7_3) {BME 5XXX\\Sr. Elec. II}; &
+&
+\node[block1] (s8_3) {BME 5XXX\\Sr. Elec. IV}; &
+\\
+&
+\node[coordinate] (c1_3) {}; &
+&
+\node[coordinate] (c2_3) {}; &
+&
+\node[coordinate] (c3_3) {}; &
+&
+\node[coordinate] (c4_3) {}; &
+&
+\node[coordinate] (c5_3) {}; &
+&
+\node[coordinate] (c6_3) {}; &
+&
+\node[coordinate] (c7_3) {}; &
+&
+
+\\
+\node[block3] (s1_4) {Gen. Ed.\\HU/CA}; &
+&
+\node[block4] (s2_4) {ECE 1400\\Fund. of Eng. Comp.}; &
+&
+\node[block4] (s3_4) {BME 2000\\BME Seminar}; &
+&
+\node[block3] (s4_4) {LIBS 1704\\Info. Nav.}; &
+&
+\node[block1] (s5_4) {BME 3210\\Sig. and Systems}; &
+&
+\node[block1] (s6_4) {BME 3600\\BME Design}; &
+&
+\node[block1] (s7_4) {HTHS 1104\\Anantomy and Phys.}; &
+&
+\node[block3] (s8_4) {ECON 2010\\Prin. of Microecon.}; &
+\\
+&
+\node[coordinate] (c1_4) {}; &
+&
+\node[coordinate] (c2_4) {}; &
+&
+\node[coordinate] (c3_4) {}; &
+&
+\node[coordinate] (c4_4) {}; &
+&
+\node[coordinate] (c5_4) {}; &
+&
+\node[coordinate] (c6_4) {}; &
+&
+\node[coordinate] (c7_4) {}; &
+&
+
+\\
+\node[block3] (s1_5) {Gen. Ed.\\SS}; &
+&
+&
+&
+\node[block3] (s3_5) {ENGL 2010\\Int. Writing}; &
+&
+\node[block3] (s4_5) {Gen. Ed.\\AI}; &
+&
+&
+&
+\node[block1] (s6_5) {BME 3090\\Project Mgmt.}; &
+&
+\node[block3] (s7_5) {COMM 2110\\Group Comm.}; &
+&
+\node[block3] (s8_5) {Gen. Ed.\\HU/EDI}; &
+\\
+&
+\node[coordinate] (c1_5) {}; &
+&
+\node[coordinate] (c2_5) {}; &
+&
+\node[coordinate] (c3_5) {}; &
+&
+\node[coordinate] (c4_5) {}; &
+&
+\node[coordinate] (c5_5) {}; &
+&
+\node[coordinate] (c6_5) {}; &
+&
+\node[coordinate] (c7_5) {}; &
+&
+
+\\
+&
+&
+&
+&
+&
+&
+&
+&
+&
+&
+\node[block3] (s6_6) {ENGL 3100\\Tech. Writing}; &
+&
+&
+&
+&
+\\
+};
+\path[line] ([yshift=0mm]s1_1) -- ([yshift=0mm]s2_1);
+\path[line] ([yshift=0mm]s2_1) -| ([yshift=10mm, xshift=10mm]c2_1) -- ([yshift=10mm, xshift=10mm]c3_1) |- ([yshift=0mm]s4_1);
+\path[line] ([yshift=0mm]s3_2) -| ([yshift=8mm, xshift=8mm]c3_1) -- ([yshift=8mm, xshift=8mm]c3_1) |- ([yshift=0mm]s4_1);
+\path[line] ([yshift=0mm]s2_4) -| ([yshift=6mm, xshift=8mm]c2_1) -- ([yshift=6mm, xshift=7mm]c3_1) |- ([yshift=0mm]s4_1);
+\path[line] ([yshift=0mm]s3_1) -| ([yshift=4mm, xshift=5mm]c3_1) -- ([yshift=4mm, xshift=5mm]c3_1) |- ([yshift=0mm]s4_2);
+\path[line] ([yshift=0mm]s4_2) -| ([yshift=2mm, xshift=10mm]c4_1) -- ([yshift=2mm, xshift=10mm]c5_1) |- ([yshift=0mm]s6_1);
+\path[line] ([yshift=0mm]s1_2) -- ([yshift=0mm]s2_2);
+\path[line] ([yshift=0mm]s1_1) -| ([yshift=0mm, xshift=10mm]c1_1) -- ([yshift=0mm, xshift=7mm]c2_1) |- ([yshift=0mm]s3_2);
+\path[line] ([yshift=0mm]s1_1) -| ([yshift=0mm, xshift=8mm]c1_1) -- ([yshift=0mm, xshift=8mm]c1_1) |- ([yshift=0mm]s2_4);
+\path[line] ([yshift=0mm]s2_1) -| ([yshift=-2mm, xshift=5mm]c2_1) -- ([yshift=-2mm, xshift=4mm]c3_1) |- ([yshift=0mm]s4_3);
+\path[line] ([yshift=0mm]s3_2) -| ([yshift=10mm, xshift=2mm]c3_2) -- ([yshift=10mm, xshift=2mm]c3_2) |- ([yshift=0mm]s4_3);
+\path[line] ([yshift=0mm]s2_1) -| ([yshift=-4mm, xshift=4mm]c2_1) -- ([yshift=-4mm, xshift=8mm]c5_1) |- ([yshift=0mm]s6_2);
+\path[line] ([yshift=0mm]s2_4) -| ([yshift=8mm, xshift=2mm]c2_2) -- ([yshift=8mm, xshift=7mm]c5_2) |- ([yshift=0mm]s6_2);
+\path[line] ([yshift=0mm]s2_4) -| ([yshift=-6mm, xshift=1mm]c2_1) -- ([yshift=-6mm, xshift=8mm]c4_1) |- ([yshift=0mm]s5_1);
+\path[line] ([yshift=0mm]s3_3) -| ([yshift=-8mm, xshift=1mm]c3_1) -- ([yshift=-8mm, xshift=7mm]c4_1) |- ([yshift=0mm]s5_1);
+\path[line] ([yshift=0mm]s1_3) -| ([yshift=10mm, xshift=7mm]c1_3) -- ([yshift=10mm, xshift=0mm]c2_3) |- ([yshift=0mm]s3_4);
+\path[line] ([yshift=0mm]s3_4) -| ([yshift=6mm, xshift=0mm]c3_2) -- ([yshift=6mm, xshift=5mm]c4_2) |- ([yshift=0mm]s5_2);
+\path[line] ([yshift=0mm]s4_3) -- ([yshift=0mm]s5_3);
+\path[line] ([yshift=0mm]s4_1) -| ([yshift=-9mm, xshift=4mm]c4_1) -- ([yshift=-9mm, xshift=4mm]c4_1) |- ([yshift=0mm]s5_4);
+\path[line] ([yshift=0mm]s4_3) -| ([yshift=8mm, xshift=2mm]c4_3) -- ([yshift=8mm, xshift=2mm]c4_3) |- ([yshift=0mm]s5_4);
+\path[line] ([yshift=0mm]s3_4) -| ([yshift=10mm, xshift=-2mm]c3_4) -- ([yshift=10mm, xshift=5mm]c5_4) |- ([yshift=0mm]s6_4);
+\path[line] ([yshift=0mm]s2_2) -| ([yshift=4mm, xshift=-2mm]c2_2) -- ([yshift=4mm, xshift=4mm]c5_2) |- ([yshift=0mm]s6_4);
+\path[line, red] ([yshift=-0mm]s1_1) -- ([yshift=-0mm]s1_2);
+\path[line, red] ([yshift=-0mm]s2_1) -- ([yshift=-0mm]s2_2);
+\path[line, red] ([yshift=-0mm]s3_1) -| ([yshift=-11mm, xshift=-3mm]c3_1) -- ([yshift=-11mm, xshift=5mm]c1_1) |- ([yshift=-0mm]s2_3);
+\path[line, red] ([yshift=-0mm]s2_1) -| ([yshift=-13mm, xshift=-3mm]c2_1) -- ([yshift=-13mm, xshift=-3mm]c2_1) |- ([yshift=-0mm]s3_2);
+\path[line, red] ([yshift=-0mm]s1_3) -| ([yshift=2mm, xshift=4mm]c1_2) -- ([yshift=2mm, xshift=-5mm]c2_2) |- ([yshift=-0mm]s3_2);
+\path[line, red] ([yshift=-0mm]s1_3) -| ([yshift=6mm, xshift=2mm]c1_3) -- ([yshift=6mm, xshift=2mm]c1_3) |- ([yshift=-0mm]s2_4);
+\path[line, red] ([yshift=-0mm]s4_1) -| ([yshift=-15mm, xshift=1mm]c4_1) -- ([yshift=-15mm, xshift=-5mm]c3_1) |- ([yshift=-0mm]s4_3);
+\path[line, red] ([yshift=-0mm]s2_4) -| ([yshift=4mm, xshift=-6mm]c2_3) -- ([yshift=4mm, xshift=-6mm]c3_3) |- ([yshift=-0mm]s4_3);
+\path[line, red] ([yshift=-0mm]s1_3) -| ([yshift=2mm, xshift=1mm]c1_3) -- ([yshift=2mm, xshift=-8mm]c2_3) |- ([yshift=-0mm]s3_3);
